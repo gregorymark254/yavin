@@ -7,7 +7,7 @@ const Home = () => {
       {/* home */}
       <section>
         <div className="container mx-auto p-4">
-          <div className="absolute -left-60 top-44">
+          <div id="icon" className="absolute -left-60 top-44">
             <img width={500} height={500} src="https://htmlrev.com/preview/yavin/images/decoration-star.svg" alt="" />
           </div>
           <div className="flex flex-wrap items-center justify-center gap-20">
@@ -70,7 +70,7 @@ const Home = () => {
       {/* about */}
       <section>
         <div className="container mx-auto p-4">
-          <div className="absolute -left-60">
+          <div id="icon" className="absolute -left-60">
               <img width={500} height={500} src="https://htmlrev.com/preview/yavin/images/decoration-star.svg" alt="" />
             </div>
           <div className="flex flex-wrap items-center justify-center gap-20">
@@ -164,7 +164,7 @@ const Home = () => {
             <div>
               <img src="https://htmlrev.com/preview/yavin/images/details-2.png" alt="person" />
             </div>
-            {/* <div className="absolute right-80">
+            {/* <div className="absolute -right-80">
               <img width={500} height={500} src="https://htmlrev.com/preview/yavin/images/decoration-star.svg" alt="" />
             </div> */}
           </div>
@@ -189,7 +189,7 @@ const Home = () => {
       {/* contacts */}
       <section>
         <div className="container mx-auto p-4 mb-20">
-          <div className="absolute -left-60">
+          <div id="icon" className="absolute -left-60">
             <img width={500} height={500} src="https://htmlrev.com/preview/yavin/images/decoration-star.svg" alt="" />
           </div>
           <div className="flex flex-wrap items-center justify-center gap-20">

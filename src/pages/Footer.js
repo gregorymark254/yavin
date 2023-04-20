@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <main>
       <div className="container mx-auto p-4">
-        <div className="flex flex-wrap justify-around">
+        <div className="flex flex-wrap justify-between">
           <div className="p-4 space-y-3">
             <h4>About Website</h4>
             <p>He oppose at thrown desire of no. Announcing <br />impression unaffected day his are unreserved <br /> indulgence. Him hard find read are you</p>
@@ -16,7 +16,7 @@ const Footer = () => {
             <p>Useful: Colorpicker, Icon Library, Illustrations</p>
             <p>Menu: Home, Details, Services, Contact</p>
           </div>
-          <div className="p-4 text-right space-y-3">
+          <div className="p-4 text-left space-y-3 md:text-right">
             <div className="flex space-x-5">
               <h4><FaFacebookF/></h4>
               <h4><FaTwitter/></h4>

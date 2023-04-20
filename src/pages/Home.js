@@ -7,6 +7,9 @@ const Home = () => {
       {/* home */}
       <section>
         <div className="container mx-auto p-4">
+          <div className="absolute -left-60 top-44">
+            <img width={500} height={500} src="https://htmlrev.com/preview/yavin/images/decoration-star.svg" alt="" />
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-20">
             <div className="p-4 space-y-6">
               <div>
@@ -29,7 +32,7 @@ const Home = () => {
       {/* details */}
       <section>
         <div className="container mx-auto p-4">
-          <div className="flex flex-wrap justify-center gap-32 text-center mt-20 mb-32">
+          <div className="flex flex-wrap justify-around gap-10 items-center text-center mt-20 mb-32">
             <div>
               <h1>237</h1>
               <h6>Happy Customers</h6>
@@ -96,7 +99,7 @@ const Home = () => {
       {/* services */}
       <section>
         <div className="container mx-auto p-4 my-32">
-          <div className="flex flex-wrap justify-evenly">
+          <div className="flex flex-wrap justify-around gap-10">
             <div className="space-y-6">
               <h2><b>Services that we offer</b></h2>
               <p>Greatly hearted has who believe. Drift allow green <br />son walls years for blush. Sir margaret drawings <br />repeated recurred exercise laughing may you</p>
@@ -109,27 +112,27 @@ const Home = () => {
             </div>
             <div>
               <div className="grid grid-cols-2 gap-10 md:grid-cols-3  text-center items-center">
-                <div>
+                <div className="space-y-4">
                   <h1 className="flex items-center justify-center text-[#cc2973]"><FaRocket/></h1>
                   <p><b>Space analysis <br /> and planning</b></p>
                 </div>
-                <div>
+                <div className="space-y-4">
                   <h1 className="flex items-center justify-center text-[#cc2973]"><FaRegClock/></h1>
                   <p><b>Design and color<br /> choosing</b></p>
                 </div>
-                <div>
+                <div className="space-y-4">
                   <h1 className="flex items-center justify-center text-[#cc2973]"><FaRegComments/></h1>
                   <p><b>Materials and <br />delivery</b></p>
                 </div>
-                <div>
+                <div className="space-y-4">
                   <h1 className="flex items-center justify-center text-[#cc2973]"><FaTools/></h1>
                   <p><b>Execute the <br />concept</b></p>
                 </div>
-                <div>
+                <div className="space-y-4">
                   <h1 className="flex items-center justify-center text-[#cc2973]"><FaChartPie/></h1>
                   <p><b>Creating great<br /> atmosphere</b></p>
                 </div>
-                <div>
+                <div className="space-y-4">
                   <h1 className="flex items-center justify-center text-[#cc2973]"><FaRegChartBar/></h1>
                   <p><b>Evaluation and <br />reporting</b></p>
                 </div>
@@ -178,6 +181,52 @@ const Home = () => {
               <div>
                 <button className="px-8 py-2 bg-[#5e87eb]  text-white rounded-full hover:border hover:bg-white hover:border-[#5e87eb] hover:text-[#5e87eb]">Get quote</button>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* contacts */}
+      <section>
+        <div className="container mx-auto p-4 mb-20">
+          <div className="absolute -left-60">
+            <img width={500} height={500} src="https://htmlrev.com/preview/yavin/images/decoration-star.svg" alt="" />
+          </div>
+          <div className="flex flex-wrap items-center justify-center gap-20">
+            <div>
+              <img src="https://htmlrev.com/preview/yavin/images/contact.png" alt="person" />
+            </div>
+            <div className="space-y-6">
+              <h3>Contact us for a quote using the following form</h3>
+              <form action="">
+                <div className="p-2">
+                  <input 
+                    type="text" 
+                    placeholder="Name"
+                    required
+                    className="px-4 py-3 rounded-full border border-slate-400 w-full focus:outline-none focus:border-[#5e87eb]"
+                  />
+                </div>
+                <div className="p-2">
+                  <input 
+                    type="email" 
+                    placeholder="Email"
+                    required
+                    className="px-4 py-3 rounded-full border border-slate-400 w-full focus:outline-none focus:border-[#5e87eb]"
+                  />
+                </div>
+                <div className="p-2">
+                  <textarea name="" id="" 
+                    cols="30" rows="10"
+                    required
+                    placeholder="Message"
+                    className="px-4 py-3 rounded-2xl border border-slate-400 w-full focus:outline-none focus:border-[#5e87eb]"
+                  ></textarea>
+                </div>
+                <div>
+                  <button className="px-5 py-2 text-white bg-[#5e87eb] w-full rounded-full hover:border hover:bg-white hover:border-[#5e87eb] hover:text-[#5e87eb]">Send Message</button>
+                </div>
+              </form>
             </div>
           </div>
         </div>

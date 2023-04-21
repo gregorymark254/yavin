@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <main>
       {/* home */}
-      <section>
+      <section id="home">
         <div className="container mx-auto p-4">
           <div id="icon" className="absolute -left-60 top-44">
             <img width={500} height={500} src="https://htmlrev.com/preview/yavin/images/decoration-star.svg" alt="" />
@@ -68,7 +68,7 @@ const Home = () => {
       </section>
 
       {/* about */}
-      <section>
+      <section id="details">
         <div className="container mx-auto p-4">
           <div id="icon" className="absolute -left-60">
               <img width={500} height={500} src="https://htmlrev.com/preview/yavin/images/decoration-star.svg" alt="" />
@@ -97,7 +97,7 @@ const Home = () => {
       </section>
 
       {/* services */}
-      <section>
+      <section id="services">
         <div className="container mx-auto p-4 my-32">
           <div className="flex flex-wrap justify-around gap-10">
             <div className="space-y-6">
@@ -143,7 +143,7 @@ const Home = () => {
       </section>
 
       {/* details */}
-      <section>
+      <section id="projects">
         <div className="container mx-auto p-4">
           <div className="flex flex-wrap items-center justify-center gap-20">
             <div className="space-y-6">
@@ -187,7 +187,7 @@ const Home = () => {
       </section>
 
       {/* contacts */}
-      <section>
+      <section id="contact">
         <div className="container mx-auto p-4 mb-20">
           <div id="icon" className="absolute -left-60">
             <img width={500} height={500} src="https://htmlrev.com/preview/yavin/images/decoration-star.svg" alt="" />

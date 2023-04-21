@@ -16,11 +16,11 @@ const Nav = () => {
           </div>
           <div className="hidden md:flex lg:flex">
             <ul className="flex">
-              <li className="px-3 py-2 hover:text-[#5e87eb]"><a href="/">Home</a></li>
-              <li className="px-3 py-2 hover:text-[#5e87eb]"><a href="/about">Details</a></li>
-              <li className="px-3 py-2 hover:text-[#5e87eb]"><a href="/services">Services</a></li>
-              <li className="px-3 py-2 hover:text-[#5e87eb]"><a href="/blog">Projects</a></li>
-              <li className="px-8 py-2 border border-[#cc2973]  text-[#cc2973] rounded-full hover:text-white hover:bg-[#cc2973]"><a href="/">Contact us</a> </li>
+              <li className="px-3 py-2 hover:text-[#5e87eb]"><a href="#home">Home</a></li>
+              <li className="px-3 py-2 hover:text-[#5e87eb]"><a href="#details">Details</a></li>
+              <li className="px-3 py-2 hover:text-[#5e87eb]"><a href="#services">Services</a></li>
+              <li className="px-3 py-2 hover:text-[#5e87eb]"><a href="#projects">Projects</a></li>
+              <li className="px-8 py-2 border border-[#cc2973]  text-[#cc2973] rounded-full hover:text-white hover:bg-[#cc2973]"><a href="#contact">Contact us</a> </li>
             </ul>
           </div>
 
@@ -38,11 +38,11 @@ const Nav = () => {
           {navIsShown && (
             <div className='absolute z-10 top-12 left-0 w-full text-black'>
               <ul className='mb-2 bg-white p-2 mx-10'>
-                <li className="px-3 py-2 hover:text-[#5e87eb] border-b border-t border-slate-300"><a href="/">Home</a></li>
-                <li className="px-3 py-2 hover:text-[#5e87eb] border-b border-slate-300"><a href="/about">Details</a></li>
-                <li className="px-3 py-2 hover:text-[#5e87eb] border-b border-slate-300"><a href="/services">Services</a></li>
-                <li className="px-3 py-2 hover:text-[#5e87eb] border-b border-slate-300"><a href="/blog">Projects</a></li>
-                <li className="px-3 py-2 hover:text-[#5e87eb]"><a href="/contact">Contact us</a></li>
+                <li className="px-3 py-2 hover:text-[#5e87eb] border-b border-t border-slate-300"><a href="#home">Home</a></li>
+                <li className="px-3 py-2 hover:text-[#5e87eb] border-b border-slate-300"><a href="#details">Details</a></li>
+                <li className="px-3 py-2 hover:text-[#5e87eb] border-b border-slate-300"><a href="#services">Services</a></li>
+                <li className="px-3 py-2 hover:text-[#5e87eb] border-b border-slate-300"><a href="#projects">Projects</a></li>
+                <li className="px-3 py-2 hover:text-[#5e87eb]"><a href="#contact">Contact us</a></li>
               </ul>
             </div>
           )}

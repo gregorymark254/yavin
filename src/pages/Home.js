@@ -8,7 +8,7 @@ const Home = () => {
       <section id="home">
         <div className="container mx-auto p-4">
           <div id="icon" className="absolute -left-60 top-44">
-            <img width={500} height={500} src="https://htmlrev.com/preview/yavin/images/decoration-star.svg" alt="" />
+            <img width={400} height={400} src="https://htmlrev.com/preview/yavin/images/decoration-star.svg" alt="" />
           </div>
           <div className="flex flex-wrap items-center justify-center gap-20">
             <div className="p-4 space-y-6">

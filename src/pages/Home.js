@@ -8,7 +8,7 @@ const Home = () => {
       <section id="home">
         <div className="container mx-auto p-4">
           <div id="icon" className="absolute -left-60 top-44">
-            <img width={400} height={400} src="https://htmlrev.com/preview/yavin/images/decoration-star.svg" alt="" />
+            <img width={400} height={400} src="https://preview.uideck.com/items/interior/assets/images/banner/shape/shape-1.png" alt="" />
           </div>
           <div className="flex flex-wrap items-center justify-center gap-20">
             <div className="p-4 space-y-6">
@@ -23,7 +23,7 @@ const Home = () => {
               </div>
             </div>
             <div>
-              <img src="https://htmlrev.com/preview/yavin/images/header.png" alt="HOME" />
+              <img src="https://preview.uideck.com/items/interior/assets/images/project/p-2.jpg" alt="HOME" />
             </div>
           </div>
         </div>
@@ -71,11 +71,11 @@ const Home = () => {
       <section id="details">
         <div className="container mx-auto p-4">
           <div id="icon" className="absolute -left-60">
-              <img width={500} height={500} src="https://htmlrev.com/preview/yavin/images/decoration-star.svg" alt="" />
+              <img width={500} height={500} src="https://preview.uideck.com/items/interior/assets/images/banner/shape/shape-1.png" alt="" />
             </div>
           <div className="flex flex-wrap items-center justify-center gap-20">
             <div>
-              <img src="https://htmlrev.com/preview/yavin/images/details-1.png" alt="person" />
+              <img src="https://preview.uideck.com/items/interior/assets/images/about/about-1.png" alt="person" />
             </div>
             <div className="space-y-6">
               <div>
@@ -162,7 +162,7 @@ const Home = () => {
               </div>
             </div>
             <div>
-              <img src="https://htmlrev.com/preview/yavin/images/details-2.png" alt="person" />
+              <img src="https://preview.uideck.com/items/interior/assets/images/about/about-1.png" alt="person" />
             </div>
             {/* <div className="absolute -right-80">
               <img width={500} height={500} src="https://htmlrev.com/preview/yavin/images/decoration-star.svg" alt="" />
@@ -190,11 +190,11 @@ const Home = () => {
       <section id="contact">
         <div className="container mx-auto p-4 mb-20">
           <div id="icon" className="absolute -left-60">
-            <img width={500} height={500} src="https://htmlrev.com/preview/yavin/images/decoration-star.svg" alt="" />
+            <img width={500} height={500} src="https://preview.uideck.com/items/interior/assets/images/banner/shape/shape-1.png" alt="" />
           </div>
           <div className="flex flex-wrap items-center justify-center gap-20">
             <div>
-              <img src="https://htmlrev.com/preview/yavin/images/contact.png" alt="person" />
+              <img src="https://preview.uideck.com/items/interior/assets/images/about/about-1.png" alt="person" />
             </div>
             <div className="space-y-6">
               <h3>Contact us for a quote using the following form</h3>
